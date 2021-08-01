@@ -324,6 +324,16 @@ body {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    border: 3px solid #fff; }
+    border: 3px solid #fff;
+    transition: all 0.2s ease-out; }
     .recommend__photo:not(:last-child) {
       margin-right: -2rem; }
+    .recommend__photo:hover {
+      color: var(--color-primary);
+      transform: scale(1.3);
+      z-index: 100;
+      box-shadow: var(--shadow-dark); }
+  .recommend__friends:hover .recommend__photo:not(:hover) {
+    transform: scale(0.9); }
+  .recommend__photo:hover + .recommend__photo:not(:hover) {
+    transform: scale(1.2); }
