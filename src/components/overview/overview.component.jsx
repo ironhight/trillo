@@ -1,27 +1,18 @@
+import { ReactComponent as IconStar } from '../../assets/img/SVG/star.svg';
+import { ReactComponent as IconLocationPin } from '../../assets/img/SVG/location-pin.svg';
+
 const Overview = () => (
 	<div className="overview">
 		<h1 className="overview__heading">Hotel Las Palmas</h1>
 		<div className="overview__stars">
-			<svg className="overview__icon-star">
-				<use href="assets/img/sprite.svg#icon-star" />
-			</svg>
-			<svg className="overview__icon-star">
-				<use href="assets/img/sprite.svg#icon-star" />
-			</svg>
-			<svg className="overview__icon-star">
-				<use href="assets/img/sprite.svg#icon-star" />
-			</svg>
-			<svg className="overview__icon-star">
-				<use href="assets/img/sprite.svg#icon-star" />
-			</svg>
-			<svg className="overview__icon-star">
-				<use href="assets/img/sprite.svg#icon-star" />
-			</svg>
+			<IconStar className="overview__icon-star" />
+			<IconStar className="overview__icon-star" />
+			<IconStar className="overview__icon-star" />
+			<IconStar className="overview__icon-star" />
+			<IconStar className="overview__icon-star" />
 		</div>
 		<div className="overview__location">
-			<svg className="overview__icon-location">
-				<use href="assets/img/sprite.svg#icon-location-pin" />
-			</svg>
+			<IconLocationPin className="overview__icon-location" />
 			<button className="btn-inline">Albufeira, Portugal</button>
 		</div>
 		<div className="overview__rating">

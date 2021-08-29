@@ -1,3 +1,10 @@
+import user1 from '../../assets/img/user-1.jpg';
+import user2 from '../../assets/img/user-2.jpg';
+import user3 from '../../assets/img/user-3.jpg';
+import user4 from '../../assets/img/user-4.jpg';
+import user5 from '../../assets/img/user-5.jpg';
+import user6 from '../../assets/img/user-6.jpg';
+
 const Detail = () => (
 	<div className="detail">
 		<div className="description">
@@ -22,10 +29,10 @@ const Detail = () => (
 			<div className="recommend">
 				<p className="recommend__count">Lucy and 3 other friends recommend this hotel.</p>
 				<div className="recommend__friends">
-					<img src="assets/img/user-3.jpg" alt="Friend 1" className="recommend__photo" />
-					<img src="assets/img/user-4.jpg" alt="Friend 2" className="recommend__photo" />
-					<img src="assets/img/user-5.jpg" alt="Friend 3" className="recommend__photo" />
-					<img src="assets/img/user-6.jpg" alt="Friend 4" className="recommend__photo" />
+					<img src={user3} alt="Friend 1" className="recommend__photo" />
+					<img src={user4} alt="Friend 2" className="recommend__photo" />
+					<img src={user5} alt="Friend 3" className="recommend__photo" />
+					<img src={user6} alt="Friend 4" className="recommend__photo" />
 				</div>
 			</div>
 		</div>
@@ -36,7 +43,7 @@ const Detail = () => (
 					totam, itaque officia ex.
 				</blockquote>
 				<figcaption className="review__user">
-					<img src="assets/img/user-1.jpg" alt="User 1" className="review__photo" />
+					<img src={user1} alt="User 1" className="review__photo" />
 					<div className="review__user-box">
 						<p className="review__user-name">Nick Smith</p>
 						<p className="review__user-date">Feb 23rd, 2021</p>
@@ -49,7 +56,7 @@ const Detail = () => (
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
 				</blockquote>
 				<figcaption className="review__user">
-					<img src="assets/img/user-2.jpg" alt="User 1" className="review__photo" />
+					<img src={user2} alt="User 2" className="review__photo" />
 					<div className="review__user-box">
 						<p className="review__user-name">Mary Thomas</p>
 						<p className="review__user-date">June 18th, 2021</p>
