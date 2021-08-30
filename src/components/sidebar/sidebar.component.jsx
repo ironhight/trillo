@@ -7,25 +7,25 @@ const SideBar = () => (
 	<nav className="sidebar">
 		<ul className="side-nav">
 			<li className="side-nav__item side-nav__item--active">
-				<a href="#" className="side-nav__link">
+				<a href="/#" className="side-nav__link">
 					<IconHome className="side-nav__icon" />
 					<span>Hotel</span>
 				</a>
 			</li>
 			<li className="side-nav__item">
-				<a href="#" className="side-nav__link">
+				<a href="/#" className="side-nav__link">
 					<IconAircarftTakeOff className="side-nav__icon" />
 					<span>Flight</span>
 				</a>
 			</li>
 			<li className="side-nav__item">
-				<a href="#" className="side-nav__link">
+				<a href="/#" className="side-nav__link">
 					<IconKey className="side-nav__icon" />
 					<span>Car rental</span>
 				</a>
 			</li>
 			<li className="side-nav__item">
-				<a href="#" className="side-nav__link">
+				<a href="/#" className="side-nav__link">
 					<IconMap className="side-nav__icon" />
 					<span>Tours</span>
 				</a>
